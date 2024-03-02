@@ -1,0 +1,80 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e5e5fd;
+  min-height: 160vh;
+  border: 10px solid #1d1e4c;
+}
+.first_sec{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imagecontainer{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.imgcontant{
+  
+ border:2px solid black;
+ border-radius:50%;
+ background-size: cover;
+ overflow: hidden;
+}
+img{
+    
+width:300px;
+height: 320px;
+}
+.namecontainer{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#1d1e4c;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+h4{
+    font-size: 30px;
+   margin-left: 420px;
+}
+.about_sec {
+    margin-top: 50px;
+}
+.about_sec h2{
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.about_sec p{
+    font-size:14px;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+    text-align: justify;
+}
+.bio_section{
+    margin: 50px 0;
+
+}
+.bio_section h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:bold;
+    margin-left: 100px;
+}
+.bio_section ul{
+margin-left: 130px;
+font-size: 15px;
+}
+footer{
+    margin-left:750px;
+    
+}
+a{
+    text-decoration: none;
+    color:#1d1e4c;
+}
